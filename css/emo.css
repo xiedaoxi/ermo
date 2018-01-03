@@ -47,6 +47,7 @@ user-select: none;}
 	background-size:1140px 683px;
 	position: relative;
 }
+
 #img-1 img:nth-child(1){
 	position: absolute;
 	top: 234px;
@@ -532,4 +533,10 @@ user-select: none;}
 .video{
 	width: 455px;
 }
-
+@media screen and (min-width: 1263px) {
+   #img-1,#img-2,#img-3,#img-4,#img-5{width: 1240px;background-size:1240px 683px;}
+   #top,#bottom{width: 1380px;background-size:1380px 183px;}
+   .img4-tab-4{left:511px}
+   .img4-tab-5{left:473px}
+   .img4-tab-6{left:422px}
+}
